@@ -1,0 +1,19 @@
+body {
+    padding-top: 90px;
+}
+
+.navbar-main-menu {
+    padding: 20px 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px!important;
+}
+
+// Créer un nouveau bouton
+.btn-custom {
+    @include button-variant(#37b6bd, #37b6bd, #30a9af);
+}
+
+.btn-custom-outline {
+    @include button-outline-variant(#37b6bd);
+}
